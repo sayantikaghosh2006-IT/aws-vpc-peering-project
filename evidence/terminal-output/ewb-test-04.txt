@@ -1,0 +1,10 @@
+ip-10-20-1-75.ec2.internal
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP group default qlen 1000
+    link/ether 12:ff:c1:ca:f1:c1 brd ff:ff:ff:ff:ff:ff
+    altname enp0s5
+    altname eni-011fdfd6ccb9f4dcf
+    altname device-number-0.0
+    inet 10.20.1.75/24 metric 512 brd 10.20.1.255 scope global dynamic ens5
+       valid_lft 2597sec preferred_lft 2597sec
+    inet6 fe80::10ff:c1ff:feca:f1c1/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever

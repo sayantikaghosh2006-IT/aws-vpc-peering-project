@@ -1,0 +1,9 @@
+PING 10.10.2.72 (10.10.2.72) 56(84) bytes of data.
+64 bytes from 10.10.2.72: icmp_seq=1 ttl=127 time=0.452 ms
+64 bytes from 10.10.2.72: icmp_seq=2 ttl=127 time=0.463 ms
+64 bytes from 10.10.2.72: icmp_seq=3 ttl=127 time=0.456 ms
+64 bytes from 10.10.2.72: icmp_seq=4 ttl=127 time=0.421 ms
+
+--- 10.10.2.72 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3095ms
+rtt min/avg/max/mdev = 0.421/0.448/0.463/0.016 ms

@@ -1,0 +1,64 @@
+# Private keys and certificates
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+id_ecdsa*
+ewb-lab*.pem
+
+# Course material (not for publication)
+EWB-Courses-*.pdf
+*Student-Project*.pdf
+
+# Active SSH configs (keep config/ssh-config.example)
+ssh_config
+config/ssh-config
+**/.ssh/
+known_hosts*
+
+# AWS credentials and local settings
+.aws/
+credentials
+*.credentials
+aws-exports.js
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Terraform state and caches
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Temporary and OS files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-*
